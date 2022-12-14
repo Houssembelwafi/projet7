@@ -1,0 +1,50 @@
+Les commandes de ubunto : 
+- sodo apt install -y built-essential linux-headers-$(uname -r)
+------> agrandir la taille de l'ecran (affichage) . 
+- sudo apt update 
+------> refresh programme ubunto  
+
+
+
+How To Create A Form Using InfoPath 2013 for Sharepoint 
+comment creer le bouton deroulante sur Infopath 
+
+
+
+sudo apt-get update && sudo apt-get install build-essential gdb
+------> installer gcc et make et gdb dans la machine vertuel 
+sudo apt-get install nano 
+------> installer nano pour ecrire un programme ensuite taper main.c pour coder 
+nano main.c 
+------> ouvrier l'interface pour coder le programme 
+ Compilation du Code Source
+Dans le même terminal, taper la commande qui permet de compiler le fichier main.c:
+gcc main.c -o programme
+main.c est le fichier source et programme est le binaire (exécutable) résultant de l'opération
+./programme 
+-----> pour executer le programme sur le terminal
+
+nano fonction.c
+----> ecrire autre programme 
+#ifndef FONCTIONS_H_
+#define FONCTIONS_H_
+int sommer(int a, int b);
+int soustraire(int a, int b);
+float diviser(int a, int b);
+#endif
+------> copier ce code dans fonction.h 
+Il ne faut pas oublier d'ajouter #include ''fontions.h'' dans main.c et d'évoquer les fonctions
+de ce module
+
+how tu upload my project files to Github using terminal ubunto 
+- git init 
+- git remote add origin "git"
+- git remote -v
+- git add .
+- git comit -m '"comment"
+- git push origin master 
+- git config user.name " lena tekteb esmek eli fil git " 
+- git config user.email "lena l'email mete3 git "
+- git help 
+
+
